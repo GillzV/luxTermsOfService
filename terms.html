@@ -4,90 +4,106 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lux Verbi — Terms of Service</title>
-  <style>
-    :root{
-      --brand:#655F56;
-      --bg:#fff;
-      --muted:#666;
-      --card:#F7F6F4;
-      --maxw:900px;
-      --radius:10px;
-      --accent: var(--brand);
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-    body{ margin:0; color:#222; background:var(--bg); line-height:1.5; }
-    header{ background: linear-gradient(180deg, rgba(101,95,86,0.06), rgba(101,95,86,0)); padding:20px 16px; border-bottom:1px solid rgba(101,95,86,0.08);}
-    .container{ max-width:var(--maxw); margin:24px auto; padding:20px; }
-    .brand{ display:flex; gap:12px; align-items:center;}
-    .logo{ width:48px; height:48px; border-radius:8px; background:var(--accent); display:inline-flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:18px; }
-    h1{ margin:8px 0 6px; font-size:22px; }
-    .card{ background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:0 6px 24px rgba(18,18,18,0.03); margin-bottom:18px;}
-    h2{ color:var(--brand); margin-top:18px; }
-    a{ color:#222; text-decoration:underline; }
-    footer{ max-width:var(--maxw); margin:12px auto 48px; padding:8px 20px; color:var(--muted); font-size:14px;}
-    @media (max-width:520px){ .container{ margin:12px; padding:16px;} h1{ font-size:20px;} }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="brand">
-        <div class="logo">LV</div>
-        <div>
-          <div style="font-weight:700">Lux Verbi</div>
-          <div style="color:var(--muted);font-size:13px">Terms of Service</div>
+  <a class="skip-link" href="#tos-title">Skip to terms</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-logo">
+            <img src="../CrossPNG.png" alt="Lux Verbi cross logo" />
+          </div>
+          <div>
+            <div class="brand-title">Lux Verbi</div>
+            <div class="brand-sub">Terms of Service</div>
+          </div>
         </div>
+        <nav class="nav" aria-label="Legal navigation">
+          <a href="index.html">Privacy Policy</a>
+          <a href="terms.html" aria-current="page">Terms of Service</a>
+        </nav>
       </div>
     </div>
   </header>
 
-  <main class="container" role="main">
-    <article class="card" aria-labelledby="tos-title">
-      <h1 id="tos-title">Terms of Service</h1>
-      <p class="lead">Effective date: <strong>January 11, 2026</strong></p>
+  <main class="wrap" role="main">
+    <div class="shell">
+      <aside class="toc" aria-label="Terms of Service outline">
+        <h2>On this page</h2>
+        <ul class="toc-section">
+          <li><a href="#section-1">1. Acceptance</a></li>
+          <li><a href="#section-2">2. Description of Service</a></li>
+          <li><a href="#section-3">3. Subscriptions &amp; Billing</a></li>
+          <li><a href="#section-4">4. Intellectual Property</a></li>
+          <li><a href="#section-5">5. User Conduct</a></li>
+          <li><a href="#section-6">6. Disclaimers</a></li>
+          <li><a href="#section-7">7. Limitation of Liability</a></li>
+          <li><a href="#section-8">8. Termination</a></li>
+          <li><a href="#section-9">9. Changes to Terms</a></li>
+          <li><a href="#section-10">10. Contact</a></li>
+        </ul>
+      </aside>
 
-      <h2>1. Acceptance</h2>
-      <p>By downloading or using Lux Verbi ("App", "we", "us"), you agree to these Terms. If you do not agree, do not use the App.</p>
+      <article class="card prose" aria-labelledby="tos-title">
+        <div class="kicker">
+          <span class="pill">Terms of Service</span>
+          <span>Effective date: <strong>January 11, 2026</strong></span>
+        </div>
 
-      <h2>2. Description of Service</h2>
-      <p>Lux Verbi is a subscription-based mobile app that provides daily Bible verses and related material. We may change or discontinue services at any time without notice.</p>
+        <h1 id="tos-title">Lux Verbi Terms of Service</h1>
+        <p class="lead">
+          These terms explain how Lux Verbi works, what you can expect from us, and what we expect from you when you use the app.
+        </p>
 
-      <h2>3. Subscriptions & Billing</h2>
-      <ul>
-        <li>Lux Verbi offers free and subscription tiers. Subscriptions auto-renew unless canceled.</li>
-        <li>Payments are processed by Apple or Google and managed by RevenueCat. We do not store payment card details.</li>
-        <li>To cancel a subscription, manage it through your App Store or Google Play account.</li>
-        <li>Refunds are handled by the platform providers (Apple/Google).</li>
-      </ul>
+        <h2 id="section-1">1. Acceptance</h2>
+        <p>By downloading or using Lux Verbi ("App", "we", "us"), you agree to these Terms. If you do not agree, do not use the App.</p>
 
-      <h2>4. Intellectual Property</h2>
-      <p>The King James Version (KJV) is public domain. All app UI, graphics, code and original content are owned by Lux Verbi. You may not reproduce or redistribute our content without permission.</p>
+        <h2 id="section-2">2. Description of Service</h2>
+        <p>Lux Verbi is a subscription-based mobile app that provides daily Bible verses and related material. We may change or discontinue services at any time without notice.</p>
 
-      <h2>5. User Conduct</h2>
-      <p>You agree not to misuse the App, attempt to reverse-engineer it, or interfere with its operation.</p>
+        <h2 id="section-3">3. Subscriptions &amp; Billing</h2>
+        <ul>
+          <li>Lux Verbi offers free and subscription tiers. Subscriptions auto-renew unless canceled.</li>
+          <li>Payments are processed by Apple or Google and managed by RevenueCat. We do not store payment card details.</li>
+          <li>To cancel a subscription, manage it through your App Store or Google Play account.</li>
+          <li>Refunds are handled by the platform providers (Apple/Google).</li>
+        </ul>
 
-      <h2>6. Disclaimers</h2>
-      <p>The App is provided "as is". We make no warranties regarding uptime, accuracy, or fitness for a particular purpose.</p>
+        <h2 id="section-4">4. Intellectual Property</h2>
+        <p>The King James Version (KJV) is public domain. All app UI, graphics, code and original content are owned by Lux Verbi. You may not reproduce or redistribute our content without permission.</p>
 
-      <h2>7. Limitation of Liability</h2>
-      <p>To the fullest extent permitted by law, Lux Verbi is not liable for indirect, incidental or consequential damages arising from use of the App.</p>
+        <h2 id="section-5">5. User Conduct</h2>
+        <p>You agree not to misuse the App, attempt to reverse-engineer it, or interfere with its operation.</p>
 
-      <h2>8. Termination</h2>
-      <p>We may suspend or terminate access for users who violate these Terms.</p>
+        <h2 id="section-6">6. Disclaimers</h2>
+        <p>The App is provided "as is". We make no warranties regarding uptime, accuracy, or fitness for a particular purpose.</p>
 
-      <h2>9. Changes to Terms</h2>
-      <p>We may modify these Terms. Continued use after changes indicates acceptance.</p>
+        <h2 id="section-7">7. Limitation of Liability</h2>
+        <p>To the fullest extent permitted by law, Lux Verbi is not liable for indirect, incidental or consequential damages arising from use of the App.</p>
 
-      <h2>10. Contact</h2>
-      <p>Questions? Contact support: <strong><a href="mailto:[YOUR_SUPPORT_EMAIL]">gillzcommerce@gmail.com</a></strong></p>
-    </article>
+        <h2 id="section-8">8. Termination</h2>
+        <p>We may suspend or terminate access for users who violate these Terms.</p>
+
+        <h2 id="section-9">9. Changes to Terms</h2>
+        <p>We may modify these Terms. Continued use after changes indicates acceptance.</p>
+
+        <h2 id="section-10">10. Contact</h2>
+        <p>Questions? Contact support: <strong><a href="mailto:gillzcommerce@gmail.com">gillzcommerce@gmail.com</a></strong></p>
+      </article>
+    </div>
   </main>
 
-  <footer>
-    <div style="max-width:var(--maxw);margin:0 auto;padding:0 20px;">
-      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
         <div>&copy; <strong>Lux Verbi</strong> — 2026</div>
-        <div><a href="index.html">Privacy Policy</a></div>
+        <div class="footer-links">
+          <a href="index.html">Privacy</a>
+          <a href="terms.html" aria-current="page">Terms</a>
+        </div>
       </div>
     </div>
   </footer>
