@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lux Verbi — Privacy Policy</title>
+  <style>
+    :root{
+      --brand:#655F56;
+      --bg:#fff;
+      --muted:#666;
+      --card:#F7F6F4;
+      --maxw:900px;
+      --radius:10px;
+      --accent: var(--brand);
+      --link: #2b2b2b;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+    header{
+      background: linear-gradient(180deg, rgba(101,95,86,0.06), rgba(101,95,86,0));
+      border-bottom: 1px solid rgba(101,95,86,0.08);
+      padding:20px 16px;
+    }
+    .container{
+      max-width:var(--maxw);
+      margin:24px auto;
+      padding:20px;
+    }
+    .brand{
+      display:flex;
+      gap:12px;
+      align-items:center;
+    }
+    .logo{
+      width:48px;
+      height:48px;
+      border-radius:8px;
+      background:var(--accent);
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:700;
+      font-size:18px;
+      box-shadow:0 6px 18px rgba(101,95,86,0.12);
+    }
+    h1{ margin:8px 0 6px; font-size:22px; }
+    p.lead{ color:var(--muted); margin:0 0 14px; }
+
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow: 0 6px 24px rgba(18,18,18,0.03);
+      margin-bottom:18px;
+    }
+    h2{ margin-top:18px; color:var(--brand); }
+    ul{ margin-left:20px; }
+    a{ color:var(--link); text-decoration:underline; }
+
+    footer{
+      max-width:var(--maxw);
+      margin:12px auto 48px;
+      padding:8px 20px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    /* small screen tweaks */
+    @media (max-width:520px){
+      .container{ margin:12px; padding:16px; }
+      h1{ font-size:20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">LV</div>
+        <div>
+          <div style="font-weight:700">Lux Verbi</div>
+          <div style="color:var(--muted);font-size:13px">Privacy & Data</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <article class="card" aria-labelledby="pp-title">
+      <h1 id="pp-title">Privacy Policy</h1>
+      <p class="lead">Effective date: <strong>[INSERT DATE]</strong></p>
+
+      <p>Lux Verbi ("we", "our", or "us") provides a subscription-based mobile application that delivers daily Bible verses. This privacy policy explains what information we collect, why we collect it, how we use it, and the choices you have.</p>
+
+      <h2>1. Information We Collect</h2>
+      <p><strong>Information you provide</strong></p>
+      <ul>
+        <li><strong>Age</strong> — optional, collected during onboarding if provided.</li>
+      </ul>
+
+      <p><strong>Information collected automatically</strong></p>
+      <ul>
+        <li>Anonymous device identifier</li>
+        <li>Device type and operating system</li>
+        <li>App usage data (time spent in the app)</li>
+        <li>Onboarding completion status</li>
+        <li>Subscription status (free or paid tier)</li>
+        <li>Which users finished onboarding</li>
+      </ul>
+
+      <h2>2. How We Store and Process Data</h2>
+      <p>We use <strong>Supabase</strong> to store the data listed above. Subscription payments are processed by Apple or Google and managed via <strong>RevenueCat</strong>. We do not collect or store payment card information.</p>
+
+      <h2>3. Push Notifications</h2>
+      <p>If you opt in to push notifications, we will send daily verses, reminders, and app updates. You can disable notifications at any time in your device settings.</p>
+
+      <h2>4. How We Use Information</h2>
+      <ul>
+        <li>Provide and maintain the app and content</li>
+        <li>Manage subscriptions and free tiers</li>
+        <li>Analyze and improve engagement and functionality</li>
+        <li>Send notifications (if enabled)</li>
+      </ul>
+
+      <h2>5. Sharing & Third Parties</h2>
+      <p>We may share limited information with:</p>
+      <ul>
+        <li>Apple/Google for billing</li>
+        <li>RevenueCat for subscription management</li>
+        <li>Supabase (data storage)</li>
+      </ul>
+      <p>We do not sell personal data.</p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>Lux Verbi is not directed to children under 13. If we discover we've collected personal data from a child under 13 without parental consent, we will delete it.</p>
+
+      <h2>7. Data Retention & Security</h2>
+      <p>We retain data as necessary to provide services and to comply with legal obligations. We implement reasonable technical safeguards but cannot guarantee absolute security.</p>
+
+      <h2>8. Your Rights</h2>
+      <p>Depending on your jurisdiction, you may request access to or deletion of your data. To do so, contact: <strong><a href="mailto:[YOUR_SUPPORT_EMAIL]">[YOUR_SUPPORT_EMAIL]</a></strong></p>
+
+      <h2>9. KJV and Copyright</h2>
+      <p>Lux Verbi uses the King James Version (KJV) of the Bible, which is in the public domain.</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this policy. Continued use constitutes acceptance of changes.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div style="max-width:var(--maxw);margin:0 auto;padding:0 20px;">
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <div>&copy; <strong>Lux Verbi</strong> — [INSERT YEAR]</div>
+        <div><a href="terms.html">Terms of Service</a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
